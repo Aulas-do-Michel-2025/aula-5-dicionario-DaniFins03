@@ -56,3 +56,11 @@ genes = {
 }
 
 # Criar seu código a partir daqui
+nome_gene = input ("Digite o nome do gene de interesse:")
+if nome_gene in genes: 
+    tamanho = genes [nome_gene]   # A chave é o nome do gene (ex: "BRCA1"),O valor é o tamanho do gene, em pares de base (ex: 81188). Nessa linha, estamos falando "Pegue o valor que está associado à chave nome_gene dentro do dicionário genes." O Python armazena "BRCA1" na variável nome_gene.E o valor que está lá no dicionário para "BRCA1" é 81188.
+
+    print (f"O tamanho do gene {nome_gene} é {tamanho}")
+
+else: 
+    print ("Gene não encontrado.")
