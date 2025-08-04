@@ -54,7 +54,6 @@ genes = {
     "HTT": 169451,
     "FMR1": 38000,
 }
-
 # Criar seu código a partir daqui
 nome_gene = input ("Digite o nome do gene de interesse:")
 if nome_gene in genes: 
